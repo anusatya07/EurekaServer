@@ -5,9 +5,8 @@ spring:
     name: stock-market-service
   datasource:
     password: root
-    url: jdbc:mysql://localhost:3306/employyee1
+    url: jdbc:mysql://localhost:3306/stockinfo
     username: root
-    
   jpa:
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
