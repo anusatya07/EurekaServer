@@ -1,0 +1,13 @@
+server:
+  port: 9898
+spring:
+  application:
+    name: stock-market-service
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/employyee1
+    username: root
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
